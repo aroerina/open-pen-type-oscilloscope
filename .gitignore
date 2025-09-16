@@ -4,7 +4,9 @@
 *.000
 *.bak
 *.bck
+*.zip
 *.kicad_pcb-bak
+*.kicad_sch-bak
 *~
 _autosave-*
 *.tmp
@@ -18,3 +20,9 @@ _autosave-*
 # Exported BOM files
 *.xml
 *.csv
+
+*/garbar
+/generated
+/production
+/jlcpcb
+\#auto_saved_files\#

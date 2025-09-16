@@ -1,0 +1,7 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "#MyIC")(type "KiCad")(uri "/Users/aroer/Develop/project/#my_kicad_libs/#My_Footprints/MyIC.pretty")(options "")(descr ""))
+  (lib (name "#MyMsc")(type "KiCad")(uri "/Users/aroer/Develop/project/#my_kicad_libs/#My_Footprints/MyMsc.pretty")(options "")(descr ""))
+  (lib (name "#MyConn")(type "KiCad")(uri "/Users/aroer/Develop/project/#my_kicad_libs/#My_Footprints/MyConnector.pretty")(options "")(descr ""))
+  (lib (name "#ps_foot")(type "KiCad")(uri "${KIPRJMOD}/ps_lib/ps_footprints")(options "")(descr ""))
+)
