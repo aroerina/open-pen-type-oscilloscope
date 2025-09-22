@@ -47,7 +47,7 @@
       "conflict_shadows",
       "shapes"
     ],
-    "visible_layers": "00000000_00000000_00000008_020a223b",
+    "visible_layers": "00000000_00000000_00000008_820a223b",
     "zone_display_mode": 1
   },
   "git": {
@@ -56,7 +56,7 @@
     "ssh_key": ""
   },
   "meta": {
-    "filename": "Android_Oscilloscope.kicad_prl",
+    "filename": "USB_Oscilloscope.kicad_prl",
     "version": 5
   },
   "net_inspector_panel": {
@@ -118,27 +118,27 @@
   "project": {
     "files": [
       {
-        "name": "Android_Oscilloscope.kicad_pcb",
+        "name": "USB_Oscilloscope.kicad_pcb",
+        "open": false,
+        "window": {
+          "display": 0,
+          "maximized": true,
+          "pos_x": -288,
+          "pos_y": -73,
+          "size_x": 1752,
+          "size_y": 1055
+        }
+      },
+      {
+        "name": "USB_Oscilloscope.kicad_sch",
         "open": false,
         "window": {
           "display": 0,
           "maximized": true,
           "pos_x": 0,
           "pos_y": 79,
-          "size_x": 1751,
+          "size_x": 1800,
           "size_y": 1055
-        }
-      },
-      {
-        "name": "Android_Oscilloscope.kicad_sch",
-        "open": false,
-        "window": {
-          "display": 1,
-          "maximized": false,
-          "pos_x": -142,
-          "pos_y": -1415,
-          "size_x": 2229,
-          "size_y": 1415
         }
       }
     ]
