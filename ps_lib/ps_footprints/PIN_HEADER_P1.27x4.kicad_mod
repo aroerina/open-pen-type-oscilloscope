@@ -56,7 +56,7 @@
 	(attr through_hole exclude_from_pos_files exclude_from_bom)
 	(fp_poly
 		(pts
-			(xy 2.828795 0) (xy 3.75 -0.5) (xy 3.75 0.5)
+			(xy 2.6 0) (xy 3 -0.4) (xy 3 0.4)
 		)
 		(stroke
 			(width 0.15)
@@ -64,18 +64,41 @@
 		)
 		(fill yes)
 		(layer "F.SilkS")
-		(uuid "e77943e2-5050-4b29-9568-a539b441829e")
+		(uuid "2cff511b-543b-438c-a9e1-7c1f405ac3e2")
+	)
+	(fp_poly
+		(pts
+			(xy 2.6 -0.022497) (xy 3 -0.422497) (xy 3 0.377503)
+		)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill yes)
+		(layer "B.SilkS")
+		(uuid "aab5f530-3b91-4830-bf32-232ded3ff4b1")
 	)
 	(fp_rect
-		(start -2.75 -0.75)
-		(end 2.75 0.75)
+		(start -2.6 -0.6)
+		(end 2.5 0.6)
 		(stroke
 			(width 0.05)
-			(type default)
+			(type solid)
+		)
+		(fill no)
+		(layer "B.CrtYd")
+		(uuid "c07d4146-ccf6-4ddc-b473-8e2a193f4f02")
+	)
+	(fp_rect
+		(start -2.6 -0.6)
+		(end 2.5 0.6)
+		(stroke
+			(width 0.05)
+			(type solid)
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "c07d4146-ccf6-4ddc-b473-8e2a193f4f02")
+		(uuid "1c5f01a9-f003-40aa-8109-d89057bdf8ee")
 	)
 	(pad "1" thru_hole rect
 		(at 1.905 0 180)

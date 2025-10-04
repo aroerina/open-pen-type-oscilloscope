@@ -1,10 +1,12 @@
 {
   "board": {
-    "active_layer": 4,
+    "active_layer": 0,
     "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_netclasses": [],
-    "hidden_nets": [],
+    "hidden_nets": [
+      "Net-(U7-X2)"
+    ],
     "high_contrast_mode": 0,
     "net_color_mode": 1,
     "opacity": {
@@ -16,13 +18,13 @@
       "zones": 0.6
     },
     "selection_filter": {
-      "dimensions": true,
+      "dimensions": false,
       "footprints": true,
-      "graphics": true,
-      "keepouts": true,
-      "lockedItems": false,
+      "graphics": false,
+      "keepouts": false,
+      "lockedItems": true,
       "otherItems": true,
-      "pads": true,
+      "pads": false,
       "text": true,
       "tracks": true,
       "vias": true,
@@ -30,12 +32,10 @@
     },
     "visible_items": [
       "vias",
-      "footprint_text",
       "footprint_anchors",
       "ratsnest",
       "grid",
       "footprints_front",
-      "footprints_back",
       "tracks",
       "drc_errors",
       "drawing_sheet",
@@ -47,8 +47,8 @@
       "conflict_shadows",
       "shapes"
     ],
-    "visible_layers": "00000000_00000000_00000008_820a223b",
-    "zone_display_mode": 1
+    "visible_layers": "00000000_00000000_0000000a_220000f5",
+    "zone_display_mode": 0
   },
   "git": {
     "repo_type": "",
@@ -100,7 +100,7 @@
       103,
       103,
       110,
-      103
+      0
     ],
     "custom_group_rules": [],
     "expanded_rows": [],
@@ -118,27 +118,15 @@
   "project": {
     "files": [
       {
-        "name": "USB_Oscilloscope.kicad_pcb",
-        "open": false,
-        "window": {
-          "display": 0,
-          "maximized": true,
-          "pos_x": -288,
-          "pos_y": -73,
-          "size_x": 1752,
-          "size_y": 1055
-        }
-      },
-      {
         "name": "USB_Oscilloscope.kicad_sch",
-        "open": false,
+        "open": true,
         "window": {
           "display": 0,
           "maximized": true,
-          "pos_x": 0,
-          "pos_y": 79,
-          "size_x": 1800,
-          "size_y": 1055
+          "pos_x": 616,
+          "pos_y": 336,
+          "size_x": 1130,
+          "size_y": 739
         }
       }
     ]

@@ -66,6 +66,17 @@
 		(layer "F.CrtYd")
 		(uuid "698571fe-ce2b-4f40-b16c-46c8d83a5a3c")
 	)
+	(fp_rect
+		(start -0.2 -2.5)
+		(end 0.2 9.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "5f2bec1b-ec18-45e6-a840-90f2b361a90a")
+	)
 	(fp_text user "${REFERENCE}"
 		(at 0 -3.5 0)
 		(unlocked yes)
@@ -85,4 +96,15 @@
 		(uuid "f44898f0-8632-4d50-83e9-68353b30a855")
 	)
 	(embedded_fonts no)
+	(model "${KIPRJMOD}/ps_lib/3dmodel/tip_wire.step"
+		(offset
+			(xyz 0 -2.4 -0.2)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
 )
